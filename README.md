@@ -19,6 +19,19 @@ country for them.
 > The intended distribution path is through existing country-selector APIs and
 > upstream documentation.
 
+## Motivation
+
+Country selection appears in checkouts, sign-ups, address forms, bookings,
+donations, and phone inputs across the web. Each interaction may cost only a few
+seconds, but a tiny delay repeated across millions of interactions becomes a
+meaningful amount of human attention. The unit of benefit is seconds; at
+sufficient scale, the aggregate can be measured in years of human life.
+
+The benefit is deliberately asymmetric: a good hint saves scrolling or search,
+while a bad hint selects nothing and leaves the ordinary list available. Broad
+adoption could therefore return small slices of people's lives without asking
+them to trade away choice, privacy, or accessibility.
+
 ## Demo
 
 Open [`index.html`](./index.html) through any static web server. For example,
