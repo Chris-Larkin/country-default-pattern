@@ -27,6 +27,11 @@ run `npm run demo` and visit `http://localhost:8000`.
 The demo uses a native `<select>` and an illustrative subset of countries. It
 contains no analytics, network calls, cookies, local storage, or IP lookup.
 
+![Two open country menus: the ordinary alphabetical list on the left and Zimbabwe shown in a Suggested group above the alphabetical list on the right. Both retain an unselected Select a country placeholder.](./assets/demo-comparison.png)
+
+*Without a usable hint, the list remains untouched. With a valid hint,
+Zimbabwe becomes easier to reach without becoming the selected value.*
+
 ## Behavioural contract
 
 The reference implementation accepts an already ordered array of objects with
