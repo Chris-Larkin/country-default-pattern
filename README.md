@@ -126,22 +126,6 @@ The automated tests cover absent, malformed, mixed-case, unknown and
 late-alphabet hints, duplicate input codes, stable ordering, and input
 immutability.
 
-## Upstream strategy
-
-Prefer a small documentation contribution that combines an existing priority
-option with an empty placeholder over a new dependency or abstraction.
-
-Initial targets:
-
-1. Rails [`country_select`](https://github.com/countries/country_select)
-2. [`intl-tel-input`](https://github.com/jackocnr/intl-tel-input)
-3. [`django-countries`](https://github.com/SmileyChris/django-countries), only
-   if its already extensive dynamic-ordering documentation has a concrete gap
-4. [`react-country-region-selector`](https://github.com/country-regions/react-country-region-selector)
-   and its [vanilla counterpart](https://github.com/country-regions/country-region-selector)
-5. Symfony [`CountryType`](https://symfony.com/doc/current/reference/forms/types/country.html),
-   if the maintainers consider a country-specific recipe appropriate
-
 ## Licence
 
 [MIT](./LICENSE) © Chris Larkin
