@@ -170,12 +170,15 @@ documentation.
 ### Rails: `country_select`
 
 Resolve and validate the optional hint before rendering the view. Combine
-`priority_countries` with a blank option, and do not supply `selected`:
+`priority_countries` with `except` so the suggestion appears only once, retain
+a blank option, and do not supply `selected`:
 
 ```erb
+<% suggested = @country_hint ? [@country_hint] : [] %>
 <%= form.country_select :country_code,
       {
-        priority_countries: @country_hint ? [@country_hint] : [],
+        priority_countries: suggested,
+        except: suggested,
         include_blank: "Select a country"
       } %>
 ```
