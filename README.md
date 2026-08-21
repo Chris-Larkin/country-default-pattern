@@ -34,7 +34,8 @@ them to trade away choice, privacy, or accessibility.
 
 ## Demo
 
-Open [`index.html`](./index.html) through any static web server. For example,
+Try the [live demo](https://chris-larkin.github.io/country-default-pattern/), or
+open [`index.html`](./index.html) through any static web server. For example,
 run `npm run demo` and visit `http://localhost:8000`.
 
 The demo uses a native `<select>` and an illustrative subset of countries. It
